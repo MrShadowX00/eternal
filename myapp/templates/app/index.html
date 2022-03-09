@@ -44,9 +44,11 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Asosiy</a></li>
           <li><a class="nav-link scrollto" href="#about">Biz haqimizda</a></li>
+          <li><a class="nav-link scrollto" href="#features">Xususiyatlar</a></li>
           <li><a class="nav-link scrollto" href="#services">Xizmatlar</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Narxlar</a></li>
-          <li><a class="nav-link scrollto" href="#features">Xususiyatlar</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+         
           {% comment %} <li><a href="blog.html">Blog</a></li> {% endcomment %}
           <!-- <li class="dropdown"><a href="#"><span></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -709,21 +711,21 @@
     </section><!-- End F.A.Q Section --> {% endcomment %}
 
     <!-- ======= Portfolio Section ======= -->
-    {% comment %} <section id="portfolio" class="portfolio">
+     <section id="portfolio" class="portfolio">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
           <h2>Portfolio</h2>
-          <p>Check our latest work</p>
+          <p>Biz yaratgan loyihalar bilan tanishing</p>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter="*" class="filter-active">Hammasi</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-card">Tizimlar</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
@@ -733,13 +735,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-1.jpg' %}" class="img-fluid" alt="">
+              <img src="{%static 'app/assets/img/portfolio/ussd.png' %}" class="img-fluid"  alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>USSD Uzbekistan</h4>
+                <p>USSD</p>
                 <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-1.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="{%static 'app/assets/img/portfolio/ussd.png' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.mirkhujaev.usd_app" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
@@ -747,12 +749,68 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-2.jpg'%}" class="img-fluid" alt="">
+              <img src="{%static 'app/assets/img/portfolio/feelfree.svg'%}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>feelfree.uz</h4>
+                <p>Web ilova</p>
                 <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-2.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="{%static 'app/assets/img/portfolio/feelfree.svg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
+                  <a href="http://feelfree.uz" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{%static 'app/assets/img/portfolio/brain.png '%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>BrainBuilding</h4>
+                <p>Mobile Game</p>
+                <div class="portfolio-links">
+                  <a href="{%static 'app/assets/img/portfolio/brain.png' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
+                  <a href="https://play.google.com/store/apps/details?id=uz.feniks.metalearn" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{%static 'app/assets/img/portfolio/agro.png '%}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Agrobank</h4>
+                <p>Test Application</p>
+                <div class="portfolio-links">
+                  <a href="{%static 'app/assets/img/portfolio/agro.png' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
+                  <a href="https://play.google.com/store/apps/details?id=uz.agrobank.mobile.mbank" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{%static 'app/assets/img/portfolio/eternal_logo.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Eternal</h4>
+                <p>Web ilovasi</p>
+                <div class="portfolio-links">
+                  <a href="{%static 'app/assets/img/portfolio/eternal_logo.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
+                  <a href="http://eternal.uz" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{%static 'app/assets/img/portfolio/opeum.png' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Opeum</h4>
+                <p>Online Learning</p>
+                <div class="portfolio-links">
+                  <a href="{%static 'app/assets/img/portfolio/opeum.png' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -761,75 +819,19 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-3.jpg '%}" class="img-fluid" alt="">
+              <img src="{%static 'app/assets/img/portfolio/weekly.png' %}" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>Weekly</h4>
+                <p>AE food delivery </p>
                 <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-3.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  <a href="{%static 'app/assets/img/portfolio/weekly.png' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" ><i class="bi bi-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-4.jpg' %}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-4.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-5.jpg' %}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-5.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-6.jpg' %}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-6.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="{%static 'app/assets/img/portfolio/portfolio-7.jpg' %}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="{%static 'app/assets/img/portfolio/portfolio-7.jpg' %}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          {% comment %} <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="{%static 'app/assets/img/portfolio/portfolio-8.jpg' %}" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -859,9 +861,9 @@
 
         </div>
 
-      </div>
+      </div> {% endcomment %}
 
-    </section><!-- End Portfolio Section --> {% endcomment %}
+    </section><!-- End Portfolio Section --> 
 
     <!-- ======= Testimonials Section ======= -->
     {% comment %} <section id="testimonials" class="testimonials">
@@ -965,18 +967,57 @@
     </section><!-- End Testimonials Section --> {% endcomment %}
 
     <!-- ======= Team Section ======= -->
-    {% comment %} <section id="team" class="team">
+     <section id="team" class="team">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Team</h2>
-          <p>Our hard working team</p>
+          <h2>Jamoa</h2>
+          <p>Eternal yaratuvchan jamoasi</p>
         </header>
 
         <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="clients-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"> <div class="d-flex "  style="width:200px;"  data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img" style="height:200px;">
+                <img src="{%static 'app/assets/img/team/team-1.jpg' %}" class="img-fluid" alt="" >
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mirxo'jayev Qurbonxo'ja</h4>
+                <span>Project Manager</span>
+                <p>Unigo.uz, BrainBuilding, Eternal.uz loyihalari bosh menejeri va asoschisi. 4 yillik tajriba. C++, Python, Django, FastAPI, Postgresql, Golang, Flutter Dart, Linux server, Nginx, Apache, Git, Agile, Scrum, Gitlab, Trello, Clickup, Clockify</p>
+              </div>
+            </div>
+          </div> </div>
+          <div class="swiper-slide" > <div class="d-flex " style="width:200px;" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="{%static 'app/assets/img/team/team-3.png' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Yaxshiyev Jamshid</h4>
+                <span>Backend Developer</span>
+                <p>3 yil + tajriba. Python, OOP, FastAPI, Flask, DRF, Django, Postgresql, Elasticsearch, SQL, Celery, Linux, Crontab, Git,
+                  Agile, Scrum, Gitlab, Trello, Clickup, Clockify
+                </p>
+              </div>
+            </div>
+          </div> </div>
+          {% comment %} <div class="swiper-slide" > <div class="d-flex " style="width:200px;" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
                 <img src="{%static 'app/assets/img/team/team-1.jpg' %}" class="img-fluid" alt="">
@@ -993,11 +1034,29 @@
                 <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          </div> </div>
+          <div class="swiper-slide" > <div class="d-flex " style="width:200px;" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
+                <img src="{%static 'app/assets/img/team/team-1.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+              </div>
+            </div>
+          </div> </div> {% endcomment %}
+
+          <div class="swiper-slide"><div class="d-flex " style="width:200px;" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img" style="height:200px;">
                 <img src="{%static 'app/assets/img/team/team-2.jpg' %}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -1007,35 +1066,17 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <h4>Bobur Abdusalomov</h4>
+                <span>Backend Developer</span>
+                <p>Golang, OOP, gRPC, Microservices, Postgresql, Elasticsearch, SQL, Celery, Linux, Crontab, Git,
+                  Agile, Scrum, Gitlab, Trello, Clickup, Clockify.</p>
               </div>
             </div>
-          </div>
+          </div></div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+           <div class="swiper-slide"> <div class="d-flex"style="width:200px;" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="member-img">
-                <img src="{%static 'app/assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img">
+              <div class="member-img" style="height:200px;">
                 <img src="{%static 'app/assets/img/team/team-4.jpg' %}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -1045,18 +1086,40 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+                <h4>Mansurov Bahodir</h4>
+                <span>Backend Developer</span>
+                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
               </div>
             </div>
-          </div>
+          </div></div>
 
+           <div class="swiper-slide"> <div class="d-flex" style="width:200px;" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img" style="height:200px;">
+                <img src="{%static 'app/assets/img/team/team-5.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Barotov Xushnud</h4>
+                <span>Manager</span>
+                <p>OOO ETERNAL EDU asoschisi, OOO ROOMBO, OOO GULOMOV'S LEGAL CONSULTING, OOO PARADISE FLOWRED Menejeri.</p>
+              </div>
+            </div>
+          </div></div> 
+          
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
         </div>
 
       </div>
 
-    </section><!-- End Team Section --> {% endcomment %}
+    </section><!-- End Team Section --> 
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
