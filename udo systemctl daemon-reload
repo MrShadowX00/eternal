@@ -1,0 +1,16 @@
+[0;1;31mWarning:[0m The unit file, source configuration file or drop-ins of gunicorn.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+[0;1;31m●[0m gunicorn.service - gunicorn deamon
+   Loaded: loaded (/etc/systemd/system/gunicorn.service; static; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Sun 2022-03-06 09:47:17 UTC; 4min 43s ago
+ Main PID: 15246 (code=exited, status=3)
+
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]:   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]:   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]:   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]: ModuleNotFoundError: No module named 'mysite'
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]: [2022-03-06 09:47:17 +0000] [15248] [INFO] Worker exiting (pid: 15248)
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]: [2022-03-06 09:47:17 +0000] [15246] [INFO] Shutting down: Master
+Mar 06 09:47:17 ip-172-26-15-157 gunicorn[15246]: [2022-03-06 09:47:17 +0000] [15246] [INFO] Reason: Worker failed to boot.
+Mar 06 09:47:17 ip-172-26-15-157 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Main process exited, code=exited, status=3/NOTIMPLEMENTED[0m
+Mar 06 09:47:17 ip-172-26-15-157 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Failed with result 'exit-code'.[0m
+Mar 06 09:50:55 ip-172-26-15-157 systemd[1]: [0;1;39m[0;1;31m[0;1;39m/etc/systemd/system/gunicorn.service:11: Unknown lvalue 'Wantedby' in section 'Install', ignoring[0m
